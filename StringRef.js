@@ -1,4 +1,4 @@
-const Ref = require("Ref");
+const Ref = require("./Ref");
 
 module.exports = class StringRef extends Ref {
     set value(_value) {
